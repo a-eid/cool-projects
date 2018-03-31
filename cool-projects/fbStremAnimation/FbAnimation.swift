@@ -1,7 +1,11 @@
 import UIKit
 
-class Home: UIViewController {
+class FbAnimation: UIViewController {
 
+  override var prefersStatusBarHidden: Bool {
+    return false
+  }
+  
   lazy var animCurve: CurvedView = {
     let cv = CurvedView()
     cv.frame = view.frame
@@ -24,7 +28,9 @@ class Home: UIViewController {
   @objc func triggerAnimations(){
     let to = arc4random_uniform(20)
     (0...to).forEach { (_) in
-      generateAnimatedViews()
+      DispatchQueue.main.async {
+        self.generateAnimatedViews()
+      }
     }
   }
   
@@ -35,8 +41,9 @@ class Home: UIViewController {
     // add animation to the image.
     let animation = CAKeyframeAnimation(keyPath: "position")
     animation.path = customPath().cgPath
-    animation.duration = 1
+    animation.duration = drand48() + 1
     animation.fillMode = kCAFillModeForwards
+    animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
     animation.isRemovedOnCompletion = false
     
     image.layer.add(animation, forKey: nil)

@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		210148E8206EFF40007AE807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210148E7206EFF40007AE807 /* AppDelegate.swift */; };
-		210148EA206EFF40007AE807 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210148E9206EFF40007AE807 /* Home.swift */; };
+		210148EA206EFF40007AE807 /* FbAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210148E9206EFF40007AE807 /* FbAnimation.swift */; };
 		210148EF206EFF40007AE807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210148EE206EFF40007AE807 /* Assets.xcassets */; };
 		210148F2206EFF40007AE807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210148F0206EFF40007AE807 /* LaunchScreen.storyboard */; };
 		210148FA206EFFF0007AE807 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210148F9206EFFF0007AE807 /* CurvedView.swift */; };
+		210148FC206F2ED0007AE807 /* MagicalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210148FB206F2ED0007AE807 /* MagicalGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		210148E4206EFF40007AE807 /* fun-projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fun-projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210148E7206EFF40007AE807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		210148E9206EFF40007AE807 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		210148E9206EFF40007AE807 /* FbAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbAnimation.swift; sourceTree = "<group>"; };
 		210148EE206EFF40007AE807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210148F1206EFF40007AE807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210148F3206EFF40007AE807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210148F9206EFFF0007AE807 /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		210148FB206F2ED0007AE807 /* MagicalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				210148E7206EFF40007AE807 /* AppDelegate.swift */,
-				210148E9206EFF40007AE807 /* Home.swift */,
+				210148E9206EFF40007AE807 /* FbAnimation.swift */,
+				210148FB206F2ED0007AE807 /* MagicalGrid.swift */,
 				210148F9206EFFF0007AE807 /* CurvedView.swift */,
 				210148EE206EFF40007AE807 /* Assets.xcassets */,
 				210148F0206EFF40007AE807 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210148EA206EFF40007AE807 /* Home.swift in Sources */,
+				210148FC206F2ED0007AE807 /* MagicalGrid.swift in Sources */,
+				210148EA206EFF40007AE807 /* FbAnimation.swift in Sources */,
 				210148FA206EFFF0007AE807 /* CurvedView.swift in Sources */,
 				210148E8206EFF40007AE807 /* AppDelegate.swift in Sources */,
 			);
